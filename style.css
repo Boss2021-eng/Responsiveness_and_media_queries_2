@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    background-color: hsl(193, 100%, 96%);
+    padding: 30px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1{
+    padding: 15px 65px;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+}
+
+main{
+    max-width: 1440px;
+    padding: 70px;
+    display: flex;
+    background-color: hsl(193, 100%, 96%);
+}
+
+.content-details{
+  width: 50%;
+  margin: 25px auto;
+ 
+}
+
+.first-content{
+    width: 100%; 
+}
+
+.first-content h1{
+    margin: 50px auto;
+}
+
+.first-content p{
+    font-size: 18px;
+    margin: 15px auto;
+}
+
+.btn2{
+    margin: 30px auto;
+    padding: 15px 65px;
+    border-radius: 30px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+}
+
+.btn2:hover{
+    background-color: transparent;
+    border: 2px solid hsl(322, 100%, 66%);
+    transition: .4s;
+}
+
+.content h1{
+    margin: 20px;
+}
+.image-bound{
+    width: 50%;
+}
+
+.image{
+    width: 100%;
+
+}
+
+.container{
+    max-width: 1440px;
+    display: flex;
+    padding: 70px;
+}
+
+.content-bound{
+    width: 50%;
+    margin: 25px auto; 
+    padding: 75px;
+}
+
+.contents{
+    margin: 30px auto;
+    height: 100vh;
+    
+}
+
+.contents h1{
+    margin: 20px auto;  
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    display: flex;
+    padding: 70px;
+}
+
+.first-box{
+    width:25%;
+    height: 100vh;
+}
+
+.icon{
+
+    display: inline-block;
+    background-color: white;
+}
+
+.text{
+    display: inline-block;
+}
+
+.second-box{
+    width:25%;
+    height: 100vh;
+   display: flex;
+   
+}
+
+.second-bound{
+    margin: 50px auto;
+}
+
+.second-bound a{
+    color: white;
+}
+
+.second-bound p{
+    margin: 25px auto;
+}
+
+
+.third-box{
+    width:25%;
+    height: 100vh;
+    text-align: center;
+}
+
+.third-bound{
+    margin: 50px auto;
+}
+
+.third-bound a{
+    color: white;
+}
+
+.third-bound p{
+    margin: 25px auto;
+}
+
+.fourth-box{
+    width:25%;
+    height: 100vh;
+}
+
+.social{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover{
+    transform:scale(1.3);
+    transition: .3s;
+   
+}
+
