@@ -262,7 +262,6 @@ footer{
     }
 
    .head{
-    background-color: purple;
     max-width: 375px; 
     display: flex;
     justify-content: center;
@@ -322,7 +321,7 @@ footer{
 
     .rectangle{
         position:relative;
-        top:150px;
+        top:300px;
     }
 
     footer{
